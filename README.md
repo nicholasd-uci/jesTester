@@ -29,19 +29,19 @@ Using the latest version of Jest and giving examples of how to use Jest. We foll
 
 ## Mather.test.js
 
-*** Constructor ***
+***Constructor***
 
 > we first make Mather.js a Constructor
 
 ![mather](./photos/mather.png)
 
-*** Passing Multiply Parameters ***
+***Passing Multiply Parameters***
 
 > we then code each test parameter
 
 ![matherTester](./photos/matherTester.png)
 
-*** Passed Test ***
+***Passed Test***
 
 ![multiPassed](./photos/multiPassed.png)
 
