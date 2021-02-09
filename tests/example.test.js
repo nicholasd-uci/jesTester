@@ -5,7 +5,7 @@ const greeting = () => {
 }
 
 test(`Greeting should be "Hello World!"`, () => {
-    expect(greeting()).toBe('GoodBye World!')
+    expect(greeting()).toBe('Hello World!')
 })
 
 test('Returned value should be typed string', () => {
