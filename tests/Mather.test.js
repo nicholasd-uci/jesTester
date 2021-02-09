@@ -7,16 +7,16 @@ test('New mather should be instance of MAther', () => {
 })
 
 test('should add a and b together', () => {
-    const mather = newMather(9,4)
+    const mather = new Mather(9,4)
     expect(mather.add()).toBe(13)
 })
 
 test('should subtract a and b together', () => {
-    const mather = newMather(9,4)
+    const mather = new Mather(9,4)
     expect(mather.subtract()).toBe(5)
 })
 
 test('should multiply a and b together', () => {
-    const mather = newMather(9,4)
-    expect(mather.subtract()).toBe(36)
+    const mather = new Mather(9,4)
+    expect(mather.multiply()).toBe(36)
 })
